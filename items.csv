@@ -1,21 +1,21 @@
 item_id,name,category,quantity,location,supplier,unit_price,barcode,date_added,expiry_date
-ITM001,Laptop Dell XPS 15,Electronics,45,A1-02,Dell Inc.,1299.99,8901234567890,2023-10-15,
-ITM002,Office Chair,Furniture,30,B3-04,Ergonomic Solutions,189.50,8901234567891,2023-09-20,
-ITM003,Printer Ink Cartridge,Office Supplies,120,C2-01,HP,24.99,8901234567892,2023-11-05,
-ITM004,Wireless Mouse,Electronics,75,A1-04,Logitech,34.95,8901234567893,2023-10-10,
-ITM005,Protein Bars (Box of 12),Food,60,D4-02,Nutritional Basics,18.75,8901234567894,2023-11-15,2024-06-30
-ITM006,Safety Gloves,Safety Equipment,200,E2-03,SafetyFirst,8.50,8901234567895,2023-10-01,
-ITM007,LED Lightbulbs (Pack of 4),Electronics,85,A2-05,Philips,15.99,8901234567896,2023-09-15,
-ITM008,Hand Sanitizer (500ml),Hygiene,110,D1-01,CleanCo,7.25,8901234567897,2023-11-10,2025-11-10
-ITM009,Stainless Steel Water Bottle,Kitchen,40,C3-02,EcoWare,22.50,8901234567898,2023-10-25,
-ITM010,External Hard Drive 2TB,Electronics,25,A1-06,Seagate,89.99,8901234567899,2023-11-05,
-ITM011,Smartphone Case,Accessories,95,A3-01,CaseMakers,19.99,8901234567900,2023-10-12,
-ITM012,Coffee Beans (1kg),Food,55,D4-03,Premium Roasters,24.50,8901234567901,2023-11-01,2024-05-15
-ITM013,First Aid Kit,Safety Equipment,35,E2-01,MedSupplies,45.00,8901234567902,2023-09-28,2026-09-28
-ITM014,USB-C Cable (2m),Electronics,150,A2-03,CableWorks,12.99,8901234567903,2023-10-20,
-ITM015,Desk Lamp,Furniture,28,B3-02,LightWorks,35.75,8901234567904,2023-11-08,
-ITM016,Whiteboard Markers (Pack of 10),Office Supplies,70,C2-03,OfficePro,14.50,8901234567905,2023-10-05,
-ITM017,Wireless Headphones,Electronics,32,A1-05,Sony,159.99,8901234567906,2023-11-12,
-ITM018,Protective Goggles,Safety Equipment,80,E2-04,SafetyFirst,11.25,8901234567907,2023-09-30,
-ITM019,Microfiber Cleaning Cloths (Pack of 5),Cleaning Supplies,65,D2-02,CleanCo,9.99,8901234567908,2023-10-18,
-ITM020,AA Batteries (Pack of 20),Electronics,90,A2-01,Energizer,15.45,8901234567909,2023-11-03,2025-11-03 
+1001,Laptop Dell XPS 15,Electronics,45,A1-02,Dell Inc.,1299.99,1234567,2023-10-15,
+1002,Office Chair,Furniture,30,B3-04,Ergonomic Solutions,189.50,2345678,2023-09-20,
+1003,Printer Ink Cartridge,Office Supplies,120,C2-01,HP,24.99,3456789,2023-11-05,
+1004,Wireless Mouse,Electronics,75,A1-04,Logitech,34.95,4567890,2023-10-10,
+1005,Protein Bars (Box of 12),Food,60,D4-02,Nutritional Basics,18.75,5678901,2023-11-15,2024-06-30
+1006,Safety Gloves,Safety Equipment,200,E2-03,SafetyFirst,8.50,6789012,2023-10-01,
+1007,LED Lightbulbs (Pack of 4),Electronics,85,A2-05,Philips,15.99,7890123,2023-09-15,
+1008,Hand Sanitizer (500ml),Hygiene,110,D1-01,CleanCo,7.25,8901234,2023-11-10,2025-11-10
+1009,Stainless Steel Water Bottle,Kitchen,40,C3-02,EcoWare,22.50,9012345,2023-10-25,
+1010,External Hard Drive 2TB,Electronics,25,A1-06,Seagate,89.99,0123456,2023-11-05,
+1011,Smartphone Case,Accessories,95,A3-01,CaseMakers,19.99,1234567,2023-10-12,
+1012,Coffee Beans (1kg),Food,55,D4-03,Premium Roasters,24.50,2345678,2023-11-01,2024-05-15
+1013,First Aid Kit,Safety Equipment,35,E2-01,MedSupplies,45.00,3456789,2023-09-28,2026-09-28
+1014,USB-C Cable (2m),Electronics,150,A2-03,CableWorks,12.99,4567890,2023-10-20,
+1015,Desk Lamp,Furniture,28,B3-02,LightWorks,35.75,5678901,2023-11-08,
+1016,Whiteboard Markers (Pack of 10),Office Supplies,70,C2-03,OfficePro,14.50,6789012,2023-10-05,
+1017,Wireless Headphones,Electronics,32,A1-05,Sony,159.99,7890123,2023-11-12,
+1018,Protective Goggles,Safety Equipment,80,E2-04,SafetyFirst,11.25,8901234,2023-09-30,
+1019,Microfiber Cleaning Cloths (Pack of 5),Cleaning Supplies,65,D2-02,CleanCo,9.99,9012345,2023-10-18,
+1020,AA Batteries (Pack of 20),Electronics,90,A2-01,Energizer,15.45,0123456,2023-11-03,2025-11-03 
