@@ -1,0 +1,2 @@
+the idea here is to build a python script for a warehouse management system
+use barcode (1D) only
