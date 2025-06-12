@@ -154,8 +154,13 @@ class WarehouseManager:
         # Paste the barcode onto the label
         label.paste(barcode_img, (barcode_pos_x, barcode_pos_y))
         
-        # Save the complete label
-        label_path = f"{output_dir}/label_{item_id}.png"
+        # Save the complete label with the specified filename format
+        # Clean the name to make it file-system friendly (remove characters that might cause issues)
+        safe_name = "".join(c if c.isalnum() or c in [' ', '-', '_'] else '_' for c in name)
+        # Limit the name length for the filename
+        short_name = safe_name[:20] if len(safe_name) > 20 else safe_name
+        # Create filename in format: label_itemid_name_barcode.png
+        label_path = f"{output_dir}/label_{item_id}_{short_name}_{barcode_value}.png"
         label.save(label_path)
         
         return label_path
@@ -442,18 +447,13 @@ class WarehouseManager:
             print("1. List All Items")
             print("2. Search Item by ID")
             print("3. Search Item by Name")
-            print("4. Generate Barcode for Item")
-            print("5. Display Item Details")
-            print("6. Print Barcode for Item")
-            print("7. Show Barcode Image")
-            print("8. Exit")
-            print("9. Display GUI Barcode (Scannable)")
-            print("10. Display QR Code (Terminal Scannable)")
-            print("11. Generate Barcode Label Sticker")
-            print("12. Bulk Generate Barcode Labels")
+            print("4. Display Item Details")
+            print("5. Generate Barcode Label Sticker")
+            print("6. Bulk Generate Barcode Labels")
+            print("7. Exit")
             print("=" * 60)
             
-            choice = input("Enter your choice (1-12): ")
+            choice = input("Enter your choice (1-7): ")
             
             if choice == '1':
                 self.list_all_items()
@@ -462,24 +462,14 @@ class WarehouseManager:
             elif choice == '3':
                 self.search_by_name()
             elif choice == '4':
-                self.barcode_generation_menu()
-            elif choice == '5':
                 self.item_details_menu()
+            elif choice == '5':
+                self.label_generation_menu()
             elif choice == '6':
-                self.print_barcode_menu()
+                self.bulk_label_generation_menu()
             elif choice == '7':
-                self.show_barcode_image_menu()
-            elif choice == '8':
                 print("\nExiting Warehouse Management System. Goodbye!")
                 break
-            elif choice == '9':
-                self.gui_barcode_menu()
-            elif choice == '10':
-                self.qr_code_menu()
-            elif choice == '11':
-                self.label_generation_menu()
-            elif choice == '12':
-                self.bulk_label_generation_menu()
             else:
                 print("\nInvalid choice. Please try again.")
 
